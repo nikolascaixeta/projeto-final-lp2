@@ -1,6 +1,6 @@
 ---
 titulo: Projeto final - Laboratório de Programação 2 (Web) - Site sobre Formula 1
-descrição: Esse projeto consiste na formulação de um site sobre a formula 1, abordando a história, as equipes, os pilotos, os troféus, as lendas e sobre os criadores, os integrantes são: Nikolas Caixeta, Ana Clara e Joâo Pedro, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
+descrição: Esse projeto consiste na formulação de um site sobre a formula 1, abordando a história, as equipes, os pilotos, os troféus, as lendas e sobre os criadores, os integrantes são Nikolas Caixeta, Ana Clara e Joâo Pedro, link do site publicado, do protótipo no Figma e da apresentação, além da organização do repositório.
 autores: Nikolas D' Marco José Caixeta, Ana Clara Da Silva Machado, João Pedro Rosa Silva.
 versao: v1.0
 ultima_atualizacao: Dia/mês/ano
