@@ -40,6 +40,7 @@ Esse site foi feito a fim de reunir informações sobre a formula 1 em um site d
 | Tag | Marco | Documento |
 |---|---|---|
 | `v0.1` | Início do projeto | [docs/versoes/v0.1-inicio.md](docs/versoes/v0.1-inicio.md) |
+| `v0.1` | envio e pesquisa de trofeus eeras |  |
 | `v1.0` | Entrega final | [docs/versoes/v1.0-final.md](docs/versoes/v1.0-final.md) |
 
 ## Uso de IA
