@@ -2,10 +2,16 @@
 https://www.figma.com/design/XllDnmkVPoK1c0q3MsLKFt/Trabalho-Final-F1?node-id=0-1&t=CiZY3XSAbJhnH0D9-1
 
 # Paletas de cores
-
+#111114
+#A4161A
+#D62828
+#C7C7C9
+#E5E5E5
+#FFFFFF
+#D4AF37
 
 # Decisões de design
-
+Cantos retos e arredondados, por que 
 
 # Fontes de ícones e imagens usadas no site
 imagens:
