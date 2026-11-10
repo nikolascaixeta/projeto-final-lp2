@@ -22,7 +22,7 @@ Esse site foi feito a fim de reunir informações sobre a formula 1 em um site d
 ## Links
 
 - **Site publicado (GitHub Pages):** [https://USUARIO.github.io/projeto-final-lp2/](https://nikolascaixeta.github.io/projeto-final-lp2/)
-- **Protótipo no Figma:** [link]
+- **Protótipo no Figma:** [https://www.figma.com/design/XllDnmkVPoK1c0q3MsLKFt]
 - **Apresentação:** [link dos slides]
 
 ## Estrutura do repositório
