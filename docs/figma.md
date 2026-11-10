@@ -8,3 +8,8 @@ https://www.figma.com/design/XllDnmkVPoK1c0q3MsLKFt/Trabalho-Final-F1?node-id=0-
 
 
 # Fontes de ícones e imagens usadas no site
+imagens:
+https://www.formula1.com/
+https://en.wikipedia.org/wiki/
+Ícones:
+https://icons8.com.br/icons/
