@@ -1,13 +1,86 @@
 :root{
     --preto: #111114;
+    --vermelho-escuro: #a4161a;
 }
 *{
     margin: 0;
     padding: 0;
 }
-.conteiner-navbar{
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.nunito{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.cor-nav{
+    background-color: #111114;
+    border-bottom: var(--vermelho-escuro) solid 3px;
+    position: relative;
+}
+#navbarBasicExample{
+    position: relative;
+}
+.navbar-item img{
+    max-height: none;
+}
+.conteiner-footer{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    background-color: var(--preto);
+    border-top: var(--vermelho-escuro) solid 3px;
+}
+.parte1-Footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 10px;
+}
+.logos-footer{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-
+    align-items: center;
+}
+#icone-footer{
+     width: 80px;
+}
+#icone-logo{
+    width: 80px;
+}
+.atalhos-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.parte2-Footer{
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;
+   margin: 10px;
+}
+.direitos{
+    width: 70px;
+    text-align: center;
+    font-size: 10px;
+}
+.icone-footer{
+    width: 30px;
+}
+.titulo-contatos{
+    font-size: larger;
+}
+.icones{
+    margin-top: 10px;
 }
