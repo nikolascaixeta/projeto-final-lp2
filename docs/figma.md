@@ -11,7 +11,9 @@ https://www.figma.com/design/XllDnmkVPoK1c0q3MsLKFt/Trabalho-Final-F1?node-id=0-
 #D4AF37
 
 # Decisões de design
-Cantos retos e arredondados, por que 
+Cantos retos e arredondados, por que no site oficial que pegamos de inspiração, era feito dessa forma e achamos muito bom
+As fontes foram escolhidas, por que nós lembra f1 e são fontes sem serifa e são fáceis de ler.
+As imagens que escolhemos, era para combinar com as cores e dar exemplo dos textos.
 
 # Fontes de ícones e imagens usadas no site
 imagens:
