@@ -1,0 +1,163 @@
+:root{
+    --preto: #111114;
+    --vermelho-escuro: #a4161a;
+    --vermelho-claro: #d62828;
+    --cinza-escuro: #c7c7c9;
+    --cinza-claro: #e5e5e5;
+    --branco: #ffffff;
+    --dourado: #d4af37;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.nunito{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.italico{
+  font-style: italic;
+}
+.cor-nav{
+    background-color: #111114;
+    border-bottom: var(--vermelho-claro) solid 3px;
+    position: relative;
+}
+#navbarBasicExample{
+    position: relative;
+}
+.logo-Site{
+    position:relative;
+
+    transform: translateX(+65%);
+}
+.navbar-item img{
+    max-height: none;
+}
+.plano-de-fundo{
+    background-image: url("../assets/img/a_dark_minimalist_motorsport_themed_wallpaper_bac.png");
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    background-color: var(--preto);
+    border-top: var(--vermelho-claro) solid 3px;
+    padding-bottom: 0px;
+    margin-top: 60px;
+}
+.alinhamento-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icones-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    img{
+        width: 80px;
+    }
+}
+.atalhos-footer{
+    text-align: center;
+    h2{
+        color: var(--cinza-escuro);
+        font-size: large;
+    }
+}
+.atalho-footer{
+    color: var(--cinza-claro);
+}
+.contatos-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.titulo-contatos{
+color: var(--cinza-escuro);
+    font-size: large;
+    margin-bottom: 10px;
+}
+.icones-contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    img{
+        width: 36px;
+    } 
+}
+.borda-creditos{
+    width: 100%;
+    border: var(--cinza-claro) solid 1px;
+    margin-bottom: 8px;
+}
+.creditos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+main{
+    margin-top: 68px;
+}
+.secao-equipes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titulo-equipes{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: var(--vermelho-escuro);
+    font-style: italic;
+    font-size: 24px;
+}
+.card-ferrari{
+    width: 338px;
+    background: linear-gradient(115deg, #E80020 35%, #fff200 75% );
+    height: 240px;
+    border-radius: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.dados-ferrari{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 4px;
+}
+.logo-ferrari{
+    img{
+      width: auto;
+    height: 240px;
+    }
+    
+}

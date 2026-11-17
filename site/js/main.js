@@ -30,4 +30,4 @@ $(document).ready(function() {
       $(".navbar-menu").toggleClass("is-active");
 
   });
-}); //peso do Bulma css
+}); //pego do Bulma css
