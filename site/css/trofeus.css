@@ -301,3 +301,124 @@ main{
   background-size: cover;
   border-radius: 8%;
 }
+.trofeu-belgica{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-belgica.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-hungria{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-hungria.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-holanda{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-holanda.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-italia{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-italia.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-madrid{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-madrid.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-azerbaijao{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-azerbaijao.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-Bahrain{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-Bahrain.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-singapura{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-singapura.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-USA{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-EUA.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-mexico{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-mexico.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-brasil{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-brasil.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
