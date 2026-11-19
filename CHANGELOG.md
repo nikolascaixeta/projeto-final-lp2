@@ -29,3 +29,9 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
 | 2026-11-19 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img | Desenvolvimento das páginas sobre pilotos e equipes |
+
+## v0.4 - Desenvolvimento do projeto (2026-11-19)
+
+| Data | Integrante | Tipo | Arquivo(s) | Descrição |
+|---|---|---|---|---|
+| 2026-11-19 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img | Desenvolvimento das páginas sobre pilotos e equipes |
