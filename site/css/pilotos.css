@@ -163,10 +163,14 @@ main{
     flex-direction: column;
     gap: 10px;
     align-items: center;
+      background: url(../assets/img/Img-paginas-secundarias/Pilotos/fundo-card-pilotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   
 }
 .piloto{
-    margin-top: 20px;
+    margin-top: 24px;
     border: var(--cinza-escuro) 2px solid;
   width: 160px;
   height: 200px;
