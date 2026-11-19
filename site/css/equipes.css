@@ -135,6 +135,7 @@ main{
     color: var(--vermelho-escuro);
     font-style: italic;
     font-size: 24px;
+    
 }
 .card-ferrari{
     width: 338px;
@@ -145,6 +146,9 @@ main{
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
   
 }
 .dados-ferrari{
@@ -157,7 +161,44 @@ main{
 .logo-ferrari{
     img{
       width: auto;
-    height: 240px;
+    height: 200px;
     }
     
+}
+.titulo-ferrari{
+    margin-top: 8px;
+    h2{
+        font-weight: bold;
+        font-size: 28px;
+      -webkit-text-fill-color: var(--branco);
+    -webkit-text-stroke: 1px var(--preto);
+    }
+    
+    
+}
+.pilotos-ferrari{
+    position: absolute;
+    left: 190px;
+    top: 220px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.piloto-ferrari{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img-piloto{
+    width: auto;
+    height: 28px;
+    margin-right: 4px;
+    border: var(--cinza-escuro) 1px solid;
+    border-radius: 100%;
+}
+.txt-piloto{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--branco);
+    -webkit-text-stroke: 0.8px var(--preto);
 }

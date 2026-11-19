@@ -23,3 +23,9 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
 | 2026-11-13 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img | Finalização do desenvovimento da navbar e do footer junto da pagina sobre a história da f1. |
+
+## v0.3 - Desenvolvimento do projeto (2026-11-19)
+
+| Data | Integrante | Tipo | Arquivo(s) | Descrição |
+|---|---|---|---|---|
+| 2026-11-19 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img | Desenvolvimento das páginas sobre pilotos e equipes |
