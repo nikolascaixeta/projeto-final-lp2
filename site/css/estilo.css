@@ -135,7 +135,7 @@ color: var(--cinza-escuro);
     margin-top: 8px;
 }
 main{
-    margin-top: 68px;
+    margin-top: 64px;
 }
 .secao-home{
     display: flex;
@@ -149,6 +149,8 @@ main{
     color: var(--vermelho-escuro);
     font-style: italic;
     font-size: 24px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
 .cards-home{
     display: flex;
@@ -184,6 +186,7 @@ main{
 }
 .txt-home{
     color: var(--cinza-claro);
+    text-align: center;
     font-size: 16px;
     margin: 10px;
     width: 320px;
@@ -192,4 +195,58 @@ main{
 .logohome{
     height: 80px; ;
     width: 100px ;
+}
+.desenvolvedores{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 10px;
+}
+.nikolas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    img{
+        height: auto;
+        width: 120px;
+        border: 2px var(--vermelho-escuro) solid;
+        border-radius: 100%;
+    }
+    p{
+        font-size: 18px;
+
+    }
+}
+.ana{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    img{
+        height: auto;
+        width: 120px;
+        border: 2px var(--vermelho-escuro) solid;
+        border-radius: 100%;
+    }
+    p{
+        font-size: 18px;
+
+    }
+}
+.joao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+    img{
+        height: auto;
+        width: 120px;
+        border: 2px var(--vermelho-escuro) solid;
+        border-radius: 100%;
+    }
+    p{
+        font-size: 18px;
+
+    }
 }

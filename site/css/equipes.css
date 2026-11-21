@@ -121,7 +121,7 @@ color: var(--cinza-escuro);
     margin-top: 8px;
 }
 main{
-    margin-top: 68px;
+    margin-top: 64px;
 }
 .secao-equipes{
     display: flex;
@@ -151,21 +151,22 @@ main{
     margin-top: 10px;
   
 }
-.dados-ferrari{
+.dados{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     gap: 4px;
+    height: 350px;
 }
-.logo-ferrari{
+.logo{
     img{
-      width: auto;
-    height: 200px;
+      height: auto;
+      width: 120px;
     }
     
 }
-.titulo-ferrari{
+.titulo{
     margin-top: 8px;
     h2{
         font-weight: bold;
@@ -178,13 +179,13 @@ main{
 }
 .pilotos-ferrari{
     position: absolute;
-    left: 190px;
+    left: 175px;
     top: 220px;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
-.piloto-ferrari{
+.piloto{
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -201,4 +202,240 @@ main{
     font-size: 18px;
     color: var(--branco);
     -webkit-text-stroke: 0.8px var(--preto);
+}
+.cards-equipes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 32px;
+}
+
+.pilotos-mercedes{
+    position: absolute;
+    left: 175px;
+    top: 490px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-mercedes{
+    width: 338px;
+    background: linear-gradient(115deg, #27F4D2 35%, #C8CCCE 75% );
+    height: 240px;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.pilotos-red-bull{
+    position: absolute;
+    left: 175px;
+    top: 760px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-red-bull{
+    width: 338px;
+    background: linear-gradient(115deg, #4570C0 35%, #E8002D 75% );
+    height: 240px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.pilotos-maclaren{
+    position: absolute;
+    left: 175px;
+    top: 1030px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-maclaren{
+    width: 338px;
+    background: linear-gradient(115deg, #FF8000 35%, #221E1F 75% );
+    height: 240px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.pilotos-aston-martin{
+    position: absolute;
+    left: 175px;
+    top: 1300px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-aston-martin{
+    width: 338px;
+    background: linear-gradient(115deg, #037A68 35%, #FFFFFF 75% );
+    height: 240px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.pilotos-williams{
+    position: absolute;
+    left: 175px;
+    top: 1570px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-williams{
+    width: 338px;
+    background: linear-gradient(115deg, #3267D4 35%, #000000 75% );
+    height: 240px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.pilotos-audi{
+    position: absolute;
+    left: 175px;
+    top: 1840px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-audi{
+    width: 338px;
+    background: linear-gradient(115deg, #F50537 35%, #C8CED4 75% );
+    height: 240px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.pilotos-racing-bulls{
+    position: absolute;
+    left: 175px;
+    top: 2115px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-racing-bulls{
+    width: 338px;
+    background: linear-gradient(115deg, #6C98FF 35%, #FFFFFF 75% );
+    height: 240px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.pilotos-hass{
+    position: absolute;
+    left: 175px;
+    top: 2380px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-hass{
+    width: 338px;
+    background: linear-gradient(115deg, #FFFFFF 35%, #E6002B 75% );
+    height: 240px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.pilotos-alpine{
+    position: absolute;
+    left: 175px;
+    top: 2650px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-alpine{
+    width: 338px;
+    background: linear-gradient(115deg, #2173B8 35%, #FF87BC 75% );
+    height: 240px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+
+.pilotos-cadillac{
+    position: absolute;
+    left: 175px;
+    top: 2920px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-cadillac{
+    width: 338px;
+    background: linear-gradient(115deg, #FFFFFF 35%, #000000 75% );
+    height: 240px;
+    border-radius: 7%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
 }
