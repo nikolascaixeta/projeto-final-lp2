@@ -15,9 +15,9 @@ Esse site foi feito a fim de reunir informações sobre a formula 1 em um site d
 
 | Nome | Onde atuou no projeto? (Mínimo de 3 frentes diferentes para cada aluno) |
 |---|---|
-| Nikolas D' Marco José Caixeta | Figma, Documentação, Html, JavaScript e CSS |
-| Ana Clara Da Silva Machado | Figma, design, css, html e documentação |
-| João Pedro Rosa Silva | [Ex.: Atualização da documentação do github, interatividade em JavaScript e apresentação] |
+| Nikolas D' Marco José Caixeta | Figma, Documentação, Html, JavaScript e CSS. |
+| Ana Clara Da Silva Machado | Figma, design, css, html,documentação e atualização do github. |
+| João Pedro Rosa Silva | html e css. |
 
 ## Links
 
