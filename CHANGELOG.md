@@ -22,16 +22,24 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-13 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img | Finalização do desenvovimento da navbar e do footer junto da pagina sobre a história da f1. |
+| 2026-11-13 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/historia.html, site/css/historia.css e site/assets/img | Finalização do desenvovimento da navbar e do footer junto da pagina sobre a história da f1. |
 
-## v0.3 - Desenvolvimento do projeto (2026-11-19)
+## v0.3 - Desenvolvimento do projeto (2026-11-18)
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-19 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img | Desenvolvimento das páginas sobre pilotos e equipes |
+| 2026-11-18 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/pilotos.html, site/css/pilotos.css, site/equipes.html, site/css/equipes.css e site/assets/img | Desenvolvimento das páginas sobre pilotos e equipes |
 
 ## v0.4 - Desenvolvimento do projeto (2026-11-19)
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-19 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img | Desenvolvimento das páginas sobre pilotos e equipes |
+| 2026-11-19 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/trofeus.html, site/css/trofeus.css e site/assets/img | Desenvolvimento da página sobre troféus |
+| 2026-11-19 | Ana Clara | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img | Desenvolvimento da home |
+| 2026-11-19 | João Pedro| docs, style, fix, content | CHANGLOG.md, site/lendas.html, site/css/lendas.css e site/assets/img | Desenvolvimento e conclusão da página sobre lendas|
+
+## v0.5 - Desenvolvimento do projeto (2026-11-20)
+
+| Data | Integrante | Tipo | Arquivo(s) | Descrição |
+|---|---|---|---|---|
+| 2026-11-20 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img, site/paginas/pilotos, site/paginas/equipes, site/paginas/trofeus, site/paginas/lendas, site/css/pilotos.css, site/css/equipes.css, site/css/trofeus.css  | Conclusão da versão mobile das páginas de pilotos, troféus e equipes, desenvolvimento da home |
