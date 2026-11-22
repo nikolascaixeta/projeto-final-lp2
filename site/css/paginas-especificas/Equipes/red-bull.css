@@ -1,0 +1,377 @@
+:root{
+    --preto: #111114;
+    --vermelho-escuro: #a4161a;
+    --vermelho-claro: #d62828;
+    --cinza-escuro: #c7c7c9;
+    --cinza-claro: #e5e5e5;
+    --branco: #ffffff;
+    --dourado: #d4af37;
+    --mercedes: #E80020;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.nunito{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.italico{
+  font-style: italic;
+}
+.cor-nav{
+    background-color: #111114;
+    border-bottom: var(--vermelho-claro) solid 3px;
+    position: relative;
+}
+#navbarBasicExample{
+    position: relative;
+}
+.logo-Site{
+    position:relative;
+
+    transform: translateX(+65%);
+}
+.navbar-item img{
+    max-height: none;
+}
+.plano-de-fundo{
+    background-image: url("../assets/img/a_dark_minimalist_motorsport_themed_wallpaper_bac.png");
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    background-color: var(--preto);
+    border-top: var(--vermelho-claro) solid 3px;
+    padding-bottom: 0px;
+    margin-top: 60px;
+}
+.alinhamento-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icones-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    img{
+        width: 80px;
+    }
+}
+.atalhos-footer{
+    text-align: center;
+    h2{
+        color: var(--cinza-escuro);
+        font-size: large;
+    }
+}
+.atalho-footer{
+    color: var(--cinza-claro);
+}
+.contatos-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.titulo-contatos{
+color: var(--cinza-escuro);
+    font-size: large;
+    margin-bottom: 10px;
+}
+.icones-contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    img{
+        width: 36px;
+    } 
+}
+.borda-creditos{
+    width: 100%;
+    border: var(--cinza-claro) solid 1px;
+    margin-bottom: 8px;
+}
+.creditos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+main{
+    margin-top: 64px;
+}
+.secao-mercedes-pilotos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.secao-carro-mercedes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.titulo-mercedes-pilotos{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: var(--mercedes);
+    font-style: italic;
+    font-size: 24px;
+    
+}
+.conteiner-separador{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: var(--mercedes) 2px solid;
+    border-bottom: var(--mercedes) 2px solid;
+    padding: 8px;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.subtitulo{
+    color:var(--mercedes);
+    font-size: 16px;
+}
+.campeao{
+    width: 260px;
+    height: 300px;
+    border: var(--dourado) 2px solid;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+      background: url(../../../assets/img/Img-paginas-secundarias/trofeus/fundo-card-trofeu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-piloto{
+    width: 260px;
+    height: 300px;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+      background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/fundo-card-pilotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.card-piloto2{
+    width: 260px;
+    height: 300px;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/fundo-descricao-pilotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.caracteristicas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nacionalidade{
+    width: 40px;
+    height: auto;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 100%;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.equipe{
+    width: 40px;
+    height: auto;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 100%;
+     margin-right: 4px;
+    margin-top: 4px;
+}
+.nome-piloto{
+    color: var(--branco);
+    font-size: 20px;
+    text-align: center;
+}
+.cards-pilotos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    margin-bottom: 32px;
+    margin-top: 32px;
+   
+}
+.piloto-hamilton{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/Imagem-Card2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-leclerc{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/Imagem-Card1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flip-box{
+  width: 260px;
+  height: 300px;
+  background-color: transparent;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box-back {
+
+  transform: rotateY(180deg);
+}
+.ul{
+    width: 120px;
+}
+.lista-ferrari{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff200;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.card-mercedes{
+    width: 338px;
+    background: linear-gradient(115deg, #27F4D2 35%, #C8CCCE 75% );
+    background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/fundo-card-pilotos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    border-radius: 15%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--cinza-escuro);
+    margin-bottom: 10px;
+    margin-top: 10px;
+  
+}
+.carro{
+    img{
+        width: 300px;
+    }
+}
+.estatisticas-carro{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    
+
+}
+.titulo{
+    margin-top: 12px;
+    margin-bottom: 12px;
+     font-size: 28px;
+     color: var(--mercedes);
+}
+.secao-desempenho-mercedes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+section{
+    margin-top: 12px;
+    margin-top: 12px;
+}
+.card-desempenho{
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/fundo-card-pilotos.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8%;
+    border: var(--cinza-escuro) 2px solid;
+}
+.titulo-desempenho{
+    margin-top: 8px;
+    color: var(--mercedes);
+    font-size: 16px;
+}
+.txt-desempenho{
+    text-align: center;
+    margin: 4px;
+    color: var(--branco);
+}

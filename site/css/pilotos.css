@@ -184,6 +184,22 @@ main{
   background-size: cover;
   
 }
+.card-piloto2{
+    width: 260px;
+    height: 300px;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/fundo-descricao-pilotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
 .piloto-leclerc{
     margin-top: 24px;
     border: var(--cinza-escuro) 2px solid;
@@ -226,7 +242,7 @@ main{
 .cards-pilotos{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 34px;
     margin-bottom: 32px;
 }
 .piloto-hamilton{
@@ -459,4 +475,176 @@ main{
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.flip-box{
+    width: 260px;
+    height: 300px;
+  background-color: transparent;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box-back {
+
+  transform: rotateY(180deg);
+}
+.ul{
+    width: 120px;
+}
+.lista-mercedes{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #27F4D2;
+    gap: 8px;
+     width: 180px;
+     background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-ferrari{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff200;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-red-bull{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #4570C0;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-mclarem{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FF8000;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-aston-martin{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #037A68;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-willians{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #3267D4;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-audi{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #F50537;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-racing-bulls{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #6C98FF ;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-haas{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff ;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-alpine{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FF87BC ;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-cadillac{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF ;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
 }
