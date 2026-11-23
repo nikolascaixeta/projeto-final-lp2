@@ -42,10 +42,17 @@ Tipos: `feat` (nova funcionalidade), `fix` (correção), `style` (visual ou layo
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-20 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img, site/paginas/pilotos, site/paginas/equipes, site/paginas/trofeus, site/paginas/lendas, site/css/pilotos.css, site/css/equipes.css, site/css/trofeus.css  | Conclusão provisória da versão mobile das páginas de pilotos, troféus, lendas e equipes, desenvolvimento da home |
+| 2026-11-20 | Nikolas | docs, style, fix, content, feat | CHANGLOG.md, site/index.html, site/css/estilo.css e site/assets/img, site/paginas/pilotos, site/paginas/equipes, site/paginas/trofeus, site/paginas/lendas, site/css/pilotos.css, site/css/equipes.css, site/css/trofeus.css  | Conclusão provisória da versão mobile das páginas de pilotos, troféus, lendas e equipes, desenvolvimento da home |
 
 ## v0.6 - Desenvolvimento do projeto (2026-11-21 e 2026-11-22)
 
 | Data | Integrante | Tipo | Arquivo(s) | Descrição |
 |---|---|---|---|---|
-| 2026-11-21 e 2026-11-22 | Nikolas | docs, style, fix, content | CHANGLOG.md, site/assets/img/Img-paginas-secundarias/equipes, site/assets/img/Img-paginas-secundarias/Pilotos,site/assets/img/Img-paginas-secundarias/trofeus, site/paginas/pilotos, site/paginas/equipes, site/paginas/trofeus, site/css/pilotos.css, site/css/equipes.css, site/css/trofeus.css, site/js/trofeus.js, site/js/pilotos.js, site/paginas/paginas-especificas/Equipes/(todas), site/paginas/css/paginas-especificas/Equipes/(todas),    | Conclusão definitiva da versão mobile das páginas de pilotos e troféus(desenvolvimento do JS nas págianas), conclusão das páginas especificas de equipes, *falta apenas a versão desktop*|
+| 2026-11-21 e 2026-11-22 | Nikolas | docs, style, fix, content, feat | CHANGLOG.md, site/assets/img/Img-paginas-secundarias/equipes, site/assets/img/Img-paginas-secundarias/Pilotos,site/assets/img/Img-paginas-secundarias/trofeus, site/paginas/pilotos, site/paginas/equipes, site/paginas/trofeus, site/css/pilotos.css, site/css/equipes.css, site/css/trofeus.css, site/js/trofeus.js, site/js/pilotos.js, site/paginas/paginas-especificas/Equipes/(todas), site/paginas/css/paginas-especificas/Equipes/(todas),    | Conclusão definitiva da versão mobile das páginas de pilotos e troféus(desenvolvimento do JS nas págianas), conclusão das páginas especificas de equipes, *falta apenas a versão desktop*|
+
+## v1.0 - Desenvolvimento do projeto (2026-11-23)
+
+| Data | Integrante | Tipo | Arquivo(s) | Descrição |
+|---|---|---|---|---|
+| 2026-11-23 | Nikolas | docs, style, fix, content, feat | CHANGELOG.md, README.md, index.html, docs/(escopo.md, figma.md, uso-de-IA.md, versoes/v0.1-inicio.md, versoes/v1.0-final.md), prints/explicacao.md, site/assets/img (arquivos diretos), site/assets/img/Img-paginas-secundarias/(equipes, lendas, Pilotos, trofeus), site/css/(todos os arquivos), site/js/(todos os arquivos), site/paginas/(equipes.html, historia.html, lendas.html, pilotos.html, trofeus.html), site/paginas/Paginas-especificas/Equipes/(todas), site/paginas/Paginas-especificas/Troféus/gp-australia.html | Conclusão definitiva do projeto com a formulação do media query com tamanho 1440px e lapidação de alguns detalhes|
+| 2026-11-23 | Ana Clara | feat content | index.html, site/css/estilo.css, site/paginas/lendas.html, site/paginas/historia.html, site/css/lendas.css e site/css/historia.css  | Conclusão definitiva do projeto com a formulação do media query com tamanho 1440px e lapidação de alguns detalhes|
