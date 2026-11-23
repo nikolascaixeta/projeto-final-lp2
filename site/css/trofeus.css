@@ -161,6 +161,7 @@ main{
     border: var(--dourado) 2px solid;
     display: flex;
     flex-direction: column;
+     border-radius: 8%;
     gap: 10px;
     align-items: center;
       background: url(../assets/img/Img-paginas-secundarias/trofeus/fundo-card-trofeu.png);
@@ -447,4 +448,128 @@ main{
 }
 #resultado-gp{
     text-align: center;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1000px) {
+    .logo-Site {
+        position: relative;
+        transform: none;
+    }
+
+    .navbar-item {
+        img {
+            width: auto;
+            height: 54px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .alinhamento {
+        gap: 32px;
+        margin-right: 32px;
+    }
+
+    .navbar-start {
+        gap: 12px;
+    }
+
+    .logo-f1 {
+        display: none;
+    }
+
+    .icones-footer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        img {
+            width: 120px;
+        }
+    }
+
+    .atalhos-footer {
+        font-size: 24px;
+        text-align: center;
+
+        h2 {
+            color: var(--cinza-escuro);
+            font-size: 28px;
+        }
+    }
+
+    .titulo-contatos {
+        color: var(--cinza-escuro);
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .icones-contatos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .linha1,
+    .linha2 {
+        img {
+            width: 60px;
+        }
+    }
+
+    .creditos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: var(--cinza-escuro);
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    .titulo-trofeus{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: var(--vermelho-escuro);
+    font-style: italic;
+    font-size: 36px;
+    
+}
+.conteiner-separador{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-top: var(--cinza-escuro) 2px solid;
+    border-bottom: var(--cinza-escuro) 2px solid;
+    padding: 8px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    gap: 100px;
+}
+.linha{
+    display: none;
+    border: var(--cinza-escuro) 1px solid;
+    height: 60px;
+}
+.subtitulo{
+    color:var(--branco);
+    font-size: 24px;
+}
+.cards-trofeus{
+    flex-direction: row;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tabela{
+    width: 800px;
+    border-radius: 8%;
+}
 }
