@@ -1,9 +1,9 @@
 ---
 titulo: Uso de IA no projeto
 descricao: Registro de todas as conversas com chatbot usadas no projeto, com data, etapa e finalidade.
-autores: Nome Sobrenome, Nome Sobrenome
+autores: Nikolas D' Marco José Caixeta
 versao: v1.0
-ultima_atualizacao: 2026-11-30
+ultima_atualizacao: 2026-11-23
 arquivos_relacionados: docs/04-versoes/ site/css/style.css
 ---
 
@@ -25,9 +25,9 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 
 | Data | Ferramenta | Etapa | Arquivo(s) afetado(s) | Motivo do uso e erro antes do uso | O que foi feito com a resposta | Link ou print |
 |---|---|---|---|---|---|---|
-| 2026-11-05 | ChatGPT | Estrutura HTML | site/index.html | Dúvida sobre a diferença entre `section` e `div`; a página tinha tudo dentro de `div`, o que dificultava ler a estrutura | Reorganizei o cabeçalho e as seções da página e testei no navegador | prints/ia-01.png |
-| 2026-11-12 | Meta AI | Responsividade | site/css/estilo.css | O menu sumia no celular e não sabíamos como adaptar o layout; tentamos ajustar larguras fixas sem sucesso | Entendi o uso de `@media` e escrevi a regra do menu hambúrguer por conta própria | prints/ia-02.png |
-| 2026-11-19 | Gemini | Validação do formulário | site/js/main.js | O envio aceitava campos vazios e e-mail inválido; não tínhamos certeza de como validar em JavaScript | Não usei o trecho sugerido; implementei a validação com `required` no HTML e revisei a lógica com o professor | prints/ia-03.png |
+| 2026-11-22 | ChatGPT | Estrutura Js | site/js/pilotos.js | Dúvida sobre como implementar um organizador na página pilotos.html; não conseguimos implementar de forma eficaz um organizador | Com base na explicação formulamos o codigo do organizador com êxito, implementando elementos sugeridos pela ia| prints/chatgpt.png a chatgpt11.png|
+| 2026-11-22 | Copilot | Estrutura JS | site/css/trofeus.css | Grande dificuldade na implementação de uma tabela reativa aos cards de pilotos; incapacidade de formular uma tabela que mudava de acordo com o card clicado | Seguindo o codigo e a explicação, entendi como implementar a tabela porém ainda tive dificuldades em sua execução, por isso utilizei a base fornecida pela ia | prints/copilot.png a copilot3.png |
+
 
 
 
