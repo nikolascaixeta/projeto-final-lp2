@@ -6,7 +6,7 @@
     --cinza-claro: #e5e5e5;
     --branco: #ffffff;
     --dourado: #d4af37;
-    --mercedes: #E80020;
+    --mercedes: #4570C0;
 }
 *{
     margin: 0;
@@ -158,20 +158,7 @@ main{
     color:var(--mercedes);
     font-size: 16px;
 }
-.campeao{
-    width: 260px;
-    height: 300px;
-    border: var(--dourado) 2px solid;
-    border-radius: 8%;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    align-items: center;
-      background: url(../../../assets/img/Img-paginas-secundarias/trofeus/fundo-card-trofeu.png);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 .card-piloto{
     width: 260px;
     height: 300px;
@@ -181,7 +168,7 @@ main{
     flex-direction: column;
     gap: 10px;
     align-items: center;
-      background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/fundo-card-pilotos.png);
+      background: url(../../../assets/img/Img-paginas-secundarias/equipes/fundo-card-red-bull.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -239,24 +226,24 @@ main{
     margin-top: 32px;
    
 }
-.piloto-hamilton{
+.piloto-verstappen{
     margin-top: 24px;
     border: var(--cinza-escuro) 2px solid;
      border-radius: 8%;
   width: 160px;
   height: 200px;
-  background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/Imagem-Card2.svg);
+  background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/verstappen.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-.piloto-leclerc{
+.piloto-hadjar{
     margin-top: 24px;
     border: var(--cinza-escuro) 2px solid;
      border-radius: 8%;
   width: 160px;
   height: 200px;
-  background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/Imagem-Card1.svg);
+  background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/hadjar.svg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -290,7 +277,7 @@ main{
 .ul{
     width: 120px;
 }
-.lista-ferrari{
+.lista-red-bull{
     margin-top: 20px;
     font-size: 16px;
     display: flex;
@@ -298,7 +285,7 @@ main{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    color: #fff200;
+    color: #4570C0;
     gap: 8px;
     width: 180px;
     background-color: rgba(0, 0, 0, 0.452);
@@ -306,7 +293,7 @@ main{
 .card-mercedes{
     width: 338px;
     background: linear-gradient(115deg, #27F4D2 35%, #C8CCCE 75% );
-    background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/fundo-card-pilotos.png);
+    background: url(../../../assets/img/Img-paginas-secundarias/equipes/fundo-card-red-bull.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -358,7 +345,7 @@ section{
     flex-direction: column;
     align-items: center;
     gap: 18px;
-    background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/fundo-card-pilotos.png);
+    background: url(../../../assets/img/Img-paginas-secundarias/equipes/fundo-card-red-bull.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -369,9 +356,11 @@ section{
     margin-top: 8px;
     color: var(--mercedes);
     font-size: 16px;
+     background-color: #1111146a;
 }
 .txt-desempenho{
     text-align: center;
     margin: 4px;
     color: var(--branco);
+     background-color: #1111146a;
 }

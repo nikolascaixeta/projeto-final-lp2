@@ -11,7 +11,7 @@
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap"
         rel="stylesheet">
-    <script src="../js/pilotos.js"></script>
+    <script src="../js/pilotos.js" defer></script>
     <link rel="stylesheet" href="../css/pilotos.css">
     <title>F1 Wiki</title>
 </head>
@@ -78,11 +78,11 @@
                     <h1 class="varela-round-regular titulo-pilotos">Pilotos</h1>
                     <div class="conteiner-separador">
                         <div class="select is-rounded is-danger">
-                            <select>
-                                <option>Equipes</option>
-                                <option>Ferrari</option>
-                                <option>McLaren</option>
-                                <option>Mercedes</option>
+                            
+                            <select id="ordenador">
+                                <option value="posicao">Posição</option>
+                                <option value="nome">Nome</option>
+                                <option value="numero">Número</option>
                             </select>
                         </div>
                         <div class="linha"></div>
@@ -90,14 +90,14 @@
                             Pilotos Temporada 2026
                         </h2>
                     </div>
-                    <div class="cards-pilotos">
+                    <div class="cards-pilotos" id="lista-pilotos">
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Charles" data-numero="16" data-posicao="6">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-leclerc">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/Pilotos/Logo-Pais.svg"
@@ -129,12 +129,12 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Lewis" data-numero="44" data-posicao="3">
                             <div class="flip-box-inner">
 
-                                <div class="flip-box-front">
-                                    <div class="card-piloto">
-                                        <div class="piloto-hamilton">
+                                <div class="flip-box-front" >
+                                    <div class="card-piloto" >
+                                        <div class="piloto-hamilton" >
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-gra-bretanha.svg"
                                                     alt="" class="nacionalidade">
@@ -170,11 +170,11 @@
 
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="George" data-numero="63" data-posicao="4">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-russell">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-gra-bretanha.svg"
@@ -206,11 +206,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Kimi" data-numero="12" data-posicao="1">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="campeao">
+                                    <div class="card-piloto" id="campeao" >
                                         <div class="piloto-antonelli">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-italia.svg"
@@ -227,7 +227,7 @@
                                 </div>
 
                                 <div class="flip-box-back">
-                                    <div class="campeao">
+                                    <div id="campeao">
                                         <ul class="lista-mercedes">
                                             <li>Nome completo: Andrea Kimi Antonelli</li>
                                             <li>Nascimento: 25 de agosto de 2006</li>
@@ -242,11 +242,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Max" data-numero="3" data-posicao="2">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-verstappen">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-holanda.svg"
@@ -278,11 +278,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Hadjar" data-numero="6" data-posicao="8">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-hadjar">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-franca.svg"
@@ -314,11 +314,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Lando" data-numero="1" data-posicao="5">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-norris">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-gra-bretanha.svg"
@@ -350,11 +350,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Oscar" data-numero="81" data-posicao="7">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-piastri">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-australia.svg"
@@ -387,11 +387,11 @@
 
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Fernando" data-numero="14" data-posicao="18">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-alonso">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-madrid.svg"
@@ -423,11 +423,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Lance" data-numero="18" data-posicao="22">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-stroll">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-canada.svg"
@@ -462,11 +462,11 @@
 
                        
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Carlos" data-numero="55" data-posicao="16">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-sainz">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-madrid.svg"
@@ -499,11 +499,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Alexander" data-numero="28" data-posicao="19">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-albon">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-tailandia.svg"
@@ -536,11 +536,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Niko" data-numero="27" data-posicao="15">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-hulkenberg">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-alemanha.svg"
@@ -573,11 +573,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Gabriel" data-numero="5" data-posicao="14">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-bortoleto">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-brasil.svg"
@@ -610,11 +610,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Liam" data-numero="30" data-posicao="9">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-lawson">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-australia.svg"
@@ -647,11 +647,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Arvid" data-numero="41" data-posicao="11">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-lindblad">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-gra-bretanha.svg"
@@ -684,12 +684,12 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Oliver" data-numero="87" data-posicao="13">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
                                     <div class="card-piloto">
-                                        <div class="piloto-bearman">
+                                        <div class="piloto-bearman" >
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-gra-bretanha.svg"
                                                     alt="" class="nacionalidade">
@@ -721,11 +721,11 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Esteban" data-numero="63" data-posicao="17">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-ocon">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-franca.svg"
@@ -760,12 +760,12 @@
 
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Pierre" data-numero="10" data-posicao="10">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
                                     <div class="card-piloto">
-                                        <div class="piloto-gasly">
+                                        <div class="piloto-gasly" >
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-franca.svg"
                                                     alt="" class="nacionalidade">
@@ -798,17 +798,17 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Franco" data-numero="43" data-posicao="12">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
-                                    <div class="card-piloto">
+                                    <div class="card-piloto" >
                                         <div class="piloto-colapinto">
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-argentina.svg"
                                                     alt="" class="nacionalidade">
                                                 <img src="../assets/img/Img-paginas-secundarias/Pilotos/logo-alpine.svg"
-                                                    alt="" class="equipe">
+                                                     alt="" class="equipe">
                                             </div>
                                         </div>
                                         <h3 class="nome-piloto">
@@ -835,13 +835,13 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Sergio" data-numero="11" data-posicao="24">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
 
                                     <div class="card-piloto">
-                                        <div class="piloto-perez">
+                                        <div class="piloto-perez" >
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-mexico.svg"
                                                     alt="" class="nacionalidade">
@@ -873,13 +873,13 @@
                         </div>
 
 
-                        <div class="flip-box">
+                        <div class="flip-box" data-nome="Valtteri" data-numero="77" data-posicao="23">
                             <div class="flip-box-inner">
 
                                 <div class="flip-box-front">
 
                                     <div class="card-piloto">
-                                        <div class="piloto-bottas">
+                                        <div class="piloto-bottas" >
                                             <div class="caracteristicas">
                                                 <img src="../assets/img/Img-paginas-secundarias/trofeus/Logo-Pais-finlandia.svg"
                                                     alt="" class="nacionalidade">

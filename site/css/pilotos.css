@@ -155,7 +155,7 @@ main{
     color:var(--branco);
     font-size: 16px;
 }
-.campeao{
+#campeao{
     width: 260px;
     height: 300px;
     border: var(--dourado) 2px solid;

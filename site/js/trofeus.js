@@ -1,4 +1,40 @@
-document.addEventListener('DOMContentLoaded', () => {
+const resultados = {
+    australia: [
+        ['George Russell', '1:23:06.801'],
+        ['Kimi Antonelli', '+2.974s'],
+        ['Charles Leclerc', '	+15.519s']
+    ],
+    china: [
+        ['Piloto 1', 'Tempo do 1º lugar'],
+        ['Piloto 2', 'Tempo do 2º lugar'],
+        ['Piloto 3', 'Tempo do 3º lugar']
+    ]
+};
+
+const cards = document.querySelector('.cards-trofeus');
+const tabela = document.getElementById('resultado-gp');
+
+cards.addEventListener('click', event => {
+    const link = event.target.closest('a[data-gp]');
+    if (!link) return;
+
+    const top3 = resultados[link.dataset.gp];
+    if (!top3) return;
+
+    tabela.replaceChildren(...top3.map((piloto, i) => {
+        const linha = document.createElement('tr');
+
+        [`${i + 1}º`, ...piloto].forEach(texto => {
+            const celula = document.createElement('td');
+            celula.textContent = texto;
+            linha.append(celula);
+        });
+
+        return linha;
+    }));
+});
+
+
 
   // Get all "navbar-burger" elements
   const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -18,16 +54,3 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-});
-
-$(document).ready(function() {
-
-  // Check for click events on the navbar burger icon
-  $(".navbar-burger").click(function() {
-
-      // Toggle the "is-active" class on both the "navbar-burger" and the "navbar-menu"
-      $(".navbar-burger").toggleClass("is-active");
-      $(".navbar-menu").toggleClass("is-active");
-
-  });
-}); //pego do Bulma css

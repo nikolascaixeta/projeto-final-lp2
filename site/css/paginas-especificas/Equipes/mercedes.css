@@ -181,7 +181,7 @@ main{
     flex-direction: column;
     gap: 10px;
     align-items: center;
-      background: url(../../../assets/img/Img-paginas-secundarias/Pilotos/fundo-card-pilotos.png);
+      background: url(../../../assets/img/Img-paginas-secundarias/equipes/fundo-carro-mercedes.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -371,9 +371,13 @@ section{
     margin-top: 8px;
     color: var(--mercedes);
     font-size: 16px;
+    background-color: #1111146a;
+    
 }
 .txt-desempenho{
     text-align: center;
     margin: 4px;
     color: var(--branco);
+     background-color: #1111146a;
+
 }

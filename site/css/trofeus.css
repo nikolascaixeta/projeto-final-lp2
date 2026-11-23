@@ -141,11 +141,11 @@ main{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     border-top: var(--cinza-escuro) 2px solid;
     border-bottom: var(--cinza-escuro) 2px solid;
     padding: 8px;
-    margin-bottom: 16px;
+    margin-bottom: 26px;
 }
 .linha{
     border: var(--cinza-escuro) 1px solid;
@@ -421,4 +421,30 @@ main{
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 8%;
+}
+.piloto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img-piloto{
+    width: auto;
+    height: 28px;
+    margin-right: 4px;
+    border: var(--cinza-escuro) 1px solid;
+    border-radius: 100%;
+}
+.txt-piloto{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--branco);
+    -webkit-text-stroke: 0.8px var(--preto);
+}
+.tabela{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#resultado-gp{
+    text-align: center;
 }
