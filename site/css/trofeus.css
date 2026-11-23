@@ -39,6 +39,28 @@
 #navbarBasicExample{
     position: relative;
 }
+@media (min-width: 1000px) {
+    .cor-nav {
+        position: relative !important;
+    }
+
+    .cor-nav #navbarBasicExample {
+        position: static !important;
+    }
+
+    .cor-nav .navbar-start {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        gap: 36px !important;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1440px) {
+    .titulo-trofeus {
+        margin-top: -40px !important;
+    }
+}
 .logo-Site{
     position:relative;
 

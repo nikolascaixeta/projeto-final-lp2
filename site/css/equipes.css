@@ -46,6 +46,23 @@
 #navbarBasicExample {
     position: relative;
 }
+@media (min-width: 1000px) {
+    .cor-nav {
+        position: relative !important;
+    }
+
+    .cor-nav #navbarBasicExample {
+        position: static !important;
+    }
+
+    .cor-nav .navbar-start {
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        gap: 36px !important;
+    }
+}
 
 .logo-Site {
     position: relative;
@@ -579,7 +596,7 @@ main {
     margin-top: 8px;
 }
 .titulo-equipes {
-    margin-top: 40px;
+    margin-top: -40px;
     margin-bottom: 32px;
     color: var(--vermelho-escuro);
     font-style: italic;
@@ -689,7 +706,7 @@ main {
 
 .pilotos-ferrari {
     left: 510px;
-    top: 230px;
+    top: 240px;
 }
 
 .pilotos-mercedes {
@@ -709,7 +726,7 @@ main {
 
 .pilotos-aston-martin {
     left: 510px;
-    top: 800px;
+    top: 810px;
 }
 
 .pilotos-williams {
