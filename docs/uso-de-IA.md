@@ -28,7 +28,7 @@ O modelo de dúvidas tiradas com a assistencia de IA deverão ter o seguinte for
 | 2026-11-22 | ChatGPT | Estrutura Js | site/js/pilotos.js | Dúvida sobre como implementar um organizador na página pilotos.html; não conseguimos implementar de forma eficaz um organizador | Com base na explicação formulamos o codigo do organizador com êxito, implementando elementos sugeridos pela ia| prints/chatgpt.png a chatgpt11.png|
 | 2026-11-22 | Copilot | Estrutura JS | site/css/trofeus.css | Grande dificuldade na implementação de uma tabela reativa aos cards de pilotos; incapacidade de formular uma tabela que mudava de acordo com o card clicado | Seguindo o codigo e a explicação, entendi como implementar a tabela porém ainda tive dificuldades em sua execução, por isso utilizei a base fornecida pela ia | prints/copilot.png a copilot3.png |
 | 2026-11-23 | Gemini | Estrutura CSS | site/css/história.css| Grande dificuldade na implementação do mobile para desketop; incapacidade de deixar os elementos do tamanho proporcional ao computador | Seguindo o código e a explicação, consegui fazer as alterações com auxilio da ia. | prints/anaclara1.png a anaclara5.png |
-| 2026-11-22 | Copilot | Estrutura JS | site/js/estilo.css | Grande dificuldade na implementação de um swiper; incapacidade de fazer o swiper funcionar | Seguindo o codigo e a explicação, consegui fazer com ajuda da ia   | prints/ana1.9.png a ana1.1.png |
+| 2026-11-22 | Gemini | Estrutura JS | site/js/estilo.css | Grande dificuldade na implementação de um swiper; incapacidade de fazer o swiper funcionar | Seguindo o codigo e a explicação, consegui fazer com ajuda da ia   | prints/ana1.9.png a ana1.1.png |
 
 
 
