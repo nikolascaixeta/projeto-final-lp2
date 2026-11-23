@@ -8,16 +8,12 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Varela+Round&display=swap"
-    rel="stylesheet">
-    <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
-/>
-
-<script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
-  <script src="site/js/main.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+  
+  <!-- CSS do Swiper 11 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <!-- Teu CSS personalizado -->
   <link rel="stylesheet" href="site/css/estilo.css">
   <title>F1 Wiki</title>
 </head>
@@ -83,8 +79,62 @@
 
         <h1 class="varela-round-regular titulo-home"> Seja Bem-Vindo ao F1 Wiki,<br> Aqui nos temos: </h1>
         
+        <div class="swiper meuSwiper">
+      <div class="swiper-wrapper">
+
         
+        <div class="swiper-slide">
+          <a href="site/paginas/pilotos.html" class="card-link">
+            <div class="card">
+              <img src="site/assets/img/Imagem-Swiper-Corredores.svg" alt="Pilotos F1">
+            </div>
+            <p class="legenda">Pilotos</p>
+          </a>
+        </div>
+
         
+        <div class="swiper-slide">
+          <a href="site/paginas/equipes.html" class="card-link">
+            <div class="card">
+              <img src="site/assets/img/imagem-swiper-equipes.svg" alt="Equipes F1">
+            </div>
+            <p class="legenda">Equipes</p>
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="site/paginas/historia.html" class="card-link">
+            <div class="card">
+              <img src="site/assets/img/imagem-swiper-historia.svg" alt="historia F1">
+            </div>
+            <p class="legenda">História</p>
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="site/paginas/lendas.html" class="card-link">
+            <div class="card">
+              <img src="site/assets/img/imagem-swiper-lendas.svg" alt="Lendas da F1">
+            </div>
+            <p class="legenda">Lendas</p>
+          </a>
+        </div>
+
+        <div class="swiper-slide">
+          <a href="site/paginas/trofeus.html" class="card-link">
+            <div class="card">
+              <img src="site/assets/img/imagem-swiper-trofeus.svg" alt="Campeões e Troféus">
+            </div>
+            <p class="legenda">Trofeus</p>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+  </section>
 
         <div class="cards-home">
           <div class="card-home">
@@ -199,6 +249,25 @@
       </div>
     </footer>
   </div>
+ <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+  <script>
+    const swiper = new Swiper(".meuSwiper", {
+      slidesPerView: 2.2,
+      centeredSlides: true,
+      spaceBetween: 30,
+      loop: true,
+      preventClicks: true,
+      preventClicksPropagation: true,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      breakpoints: {
+        0: { slidesPerView: 1.2 },
+        768: { slidesPerView: 2.2 }
+      }
+    });
+  </script>
 </body>
-
 </html>
