@@ -186,6 +186,7 @@ main{
     border-top: var(--cinza-escuro) 2px solid;
     border-bottom: var(--cinza-escuro) 2px solid;
     padding: 8px;
+     margin-top: 26px;
     margin-bottom: 26px;
 }
 .linha{
