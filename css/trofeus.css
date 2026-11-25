@@ -1,0 +1,601 @@
+:root{
+    --preto: #111114;
+    --vermelho-escuro: #a4161a;
+    --vermelho-claro: #d62828;
+    --cinza-escuro: #c7c7c9;
+    --cinza-claro: #e5e5e5;
+    --branco: #ffffff;
+    --dourado: #d4af37;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+}
+
+h2, h3{
+      font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+     font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.nunito{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.italico{
+  font-style: italic;
+}
+.cor-nav{
+    background-color: #111114;
+    border-bottom: var(--vermelho-claro) solid 3px;
+    position: relative;
+}
+#navbarBasicExample{
+    position: relative;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1440px) {
+    .titulo-trofeus {
+        margin-top: -40px !important;
+    }
+}
+.logo-Site{
+    position:relative;
+
+    transform: translateX(+65%);
+}
+.navbar-item img{
+    max-height: none;
+}
+.plano-de-fundo{
+    background-image: url("../assets/img/a_dark_minimalist_motorsport_themed_wallpaper_bac.png");
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    background-color: var(--preto);
+    border-top: var(--vermelho-claro) solid 3px;
+    padding-bottom: 0px;
+    margin-top: 60px;
+}
+.alinhamento-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icones-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    img{
+        width: 80px;
+    }
+}
+.atalhos-footer{
+    text-align: center;
+    h2{
+        color: var(--cinza-escuro);
+        font-size: large;
+    }
+}
+.atalho-footer{
+    color: var(--cinza-claro);
+}
+.contatos-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.titulo-contatos{
+color: var(--cinza-escuro);
+    font-size: large;
+    margin-bottom: 10px;
+}
+.icones-contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    img{
+        width: 36px;
+    } 
+}
+.borda-creditos{
+    width: 100%;
+    border: var(--cinza-claro) solid 1px;
+    margin-bottom: 8px;
+}
+.creditos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+main{
+    margin-top: 64px;
+}
+.secao-trofeus{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titulo-trofeus{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: var(--vermelho-escuro);
+    font-style: italic;
+    font-size: 24px;
+    
+}
+.conteiner-separador{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: var(--cinza-escuro) 2px solid;
+    border-bottom: var(--cinza-escuro) 2px solid;
+    padding: 8px;
+     margin-top: 26px;
+    margin-bottom: 26px;
+}
+.linha{
+    border: var(--cinza-escuro) 1px solid;
+    height: 60px;
+}
+.subtitulo{
+    color:var(--branco);
+    font-size: 16px;
+}
+.card-trofeu{
+    width: 260px;
+    height: 300px;
+    border: var(--dourado) 2px solid;
+    display: flex;
+    flex-direction: column;
+     border-radius: 8%;
+    gap: 10px;
+    align-items: center;
+      background: url(../assets/img/Img-paginas-secundarias/trofeus/fundo-card-trofeu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.trofeu{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-australia.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.caracteristicas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nacionalidade{
+    width: 40px;
+    height: auto;
+    border: var(--dourado) 2px solid;
+    border-radius: 100%;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.equipe{
+    width: 40px;
+    height: auto;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 100%;
+     margin-right: 4px;
+    margin-top: 4px;
+}
+.nome-trofeu{
+    color: var(--branco);
+    font-size: 20px;
+    text-align: center;
+}
+.cards-trofeus{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.trofeu-china{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-china.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-japao{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-japao.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-miami{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-miami.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-canada{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-canada.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-monaco{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-monaco.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-barcelona{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-barcelona.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-austria{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-austria.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-gra-bretanha{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-gra-bretanha.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-belgica{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-belgica.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-hungria{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-hungria.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-holanda{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-holanda.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-italia{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-italia.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-madrid{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-madrid.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-azerbaijao{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-azerbaijao.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-Bahrain{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-Bahrain.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-singapura{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-singapura.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-USA{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-EUA.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-mexico{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-mexico.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.trofeu-brasil{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/trofeus/trofeus-brasil.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 8%;
+}
+.piloto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.img-piloto{
+    width: auto;
+    height: 28px;
+    margin-right: 4px;
+    border: var(--cinza-escuro) 1px solid;
+    border-radius: 100%;
+}
+.txt-piloto{
+    font-weight: 700;
+    font-size: 18px;
+    color: var(--branco);
+    -webkit-text-stroke: 0.8px var(--preto);
+}
+.tabela{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+#resultado-gp{
+    text-align: center;
+}
+
+@media screen and (max-width: 1440px) and (min-width: 1000px) {
+    .logo-Site {
+        position: relative;
+        transform: none;
+    }
+
+    .navbar-item {
+        img {
+            width: auto;
+            height: 54px;
+        }
+
+        p {
+            font-size: 20px;
+        }
+    }
+
+    .alinhamento {
+        gap: 32px;
+        margin-right: 32px;
+    }
+
+    .navbar-start {
+        gap: 12px;
+    }
+
+    .logo-f1 {
+        display: none;
+    }
+
+    .icones-footer {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+
+        img {
+            width: 120px;
+        }
+    }
+
+    .atalhos-footer {
+        font-size: 24px;
+        text-align: center;
+
+        h2 {
+            color: var(--cinza-escuro);
+            font-size: 28px;
+        }
+    }
+
+    .titulo-contatos {
+        color: var(--cinza-escuro);
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    .icones-contatos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .linha1,
+    .linha2 {
+        img {
+            width: 60px;
+        }
+    }
+
+    .creditos {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        color: var(--cinza-escuro);
+        font-size: 20px;
+        text-align: center;
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    .titulo-trofeus{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: var(--vermelho-escuro);
+    font-style: italic;
+    font-size: 36px;
+    
+}
+.conteiner-separador{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-top: var(--cinza-escuro) 2px solid;
+    border-bottom: var(--cinza-escuro) 2px solid;
+    padding: 8px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    gap: 100px;
+}
+.linha{
+    display: none;
+    border: var(--cinza-escuro) 1px solid;
+    height: 60px;
+}
+.subtitulo{
+    color:var(--branco);
+    font-size: 24px;
+}
+.cards-trofeus{
+    flex-direction: row;
+    gap: 60px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tabela{
+    width: 800px;
+    border-radius: 8%;
+}
+}

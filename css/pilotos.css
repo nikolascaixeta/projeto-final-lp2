@@ -1,0 +1,797 @@
+:root{
+    --preto: #111114;
+    --vermelho-escuro: #a4161a;
+    --vermelho-claro: #d62828;
+    --cinza-escuro: #c7c7c9;
+    --cinza-claro: #e5e5e5;
+    --branco: #ffffff;
+    --dourado: #d4af37;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;  
+}
+
+h2, h3{
+      font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+p{
+     font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.dm-sans{
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.nunito{
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.italico{
+  font-style: italic;
+}
+.cor-nav{
+    background-color: #111114;
+    border-bottom: var(--vermelho-claro) solid 3px;
+    position: relative;
+}
+#navbarBasicExample{
+    position: relative;
+}
+
+@media screen and (min-width: 1000px) and (max-width: 1440px) {
+    .titulo-pilotos {
+        margin-top: -40px !important;
+    }
+}
+.logo-Site{
+    position:relative;
+
+    transform: translateX(+65%);
+}
+.navbar-item img{
+    max-height: none;
+}
+.plano-de-fundo{
+    background-image: url("../assets/img/a_dark_minimalist_motorsport_themed_wallpaper_bac.png");
+    background-size: cover;
+    background-position: center;
+}
+.footer{
+    background-color: var(--preto);
+    border-top: var(--vermelho-claro) solid 3px;
+    padding-bottom: 0px;
+    margin-top: 60px;
+}
+.alinhamento-footer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.icones-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    img{
+        width: 80px;
+    }
+}
+.atalhos-footer{
+    text-align: center;
+    h2{
+        color: var(--cinza-escuro);
+        font-size: large;
+    }
+}
+.atalho-footer{
+    color: var(--cinza-claro);
+}
+.contatos-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.titulo-contatos{
+color: var(--cinza-escuro);
+    font-size: large;
+    margin-bottom: 10px;
+}
+.icones-contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+    img{
+        width: 36px;
+    } 
+}
+.borda-creditos{
+    width: 100%;
+    border: var(--cinza-claro) solid 1px;
+    margin-bottom: 8px;
+}
+.creditos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: var(--cinza-escuro);
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 8px;
+    margin-top: 8px;
+}
+main{
+    margin-top: 64px;
+}
+.secao-pilotos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.titulo-pilotos{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: var(--vermelho-escuro);
+    font-style: italic;
+    font-size: 24px;
+    
+}
+.conteiner-separador{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: var(--cinza-escuro) 2px solid;
+    border-bottom: var(--cinza-escuro) 2px solid;
+    padding: 8px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+.linha{
+    border: var(--cinza-escuro) 1px solid;
+    height: 60px;
+}
+.subtitulo{
+    color:var(--branco);
+    font-size: 16px;
+}
+.campeao{
+    width: 260px;
+    height: 300px;
+    border: var(--dourado) 2px solid;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+      background: url(../assets/img/Img-paginas-secundarias/trofeus/fundo-card-trofeu.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card-piloto{
+    width: 260px;
+    height: 300px;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+      background: url(../assets/img/Img-paginas-secundarias/Pilotos/fundo-card-pilotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.card-piloto2{
+    width: 260px;
+    height: 300px;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/fundo-descricao-pilotos.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+.piloto-leclerc{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/Imagem-Card1.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.caracteristicas{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.nacionalidade{
+    width: 40px;
+    height: auto;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 100%;
+    margin-left: 4px;
+    margin-top: 4px;
+}
+.equipe{
+    width: 40px;
+    height: auto;
+    border: var(--cinza-escuro) 2px solid;
+    border-radius: 100%;
+     margin-right: 4px;
+    margin-top: 4px;
+}
+.nome-piloto{
+    color: var(--branco);
+    font-size: 20px;
+    text-align: center;
+}
+.cards-pilotos{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+    margin-bottom: 32px;
+}
+.piloto-hamilton{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/Imagem-Card2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-russell{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/russell.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-antonelli{
+    margin-top: 24px;
+    border: var(--dourado) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/antonelli.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-verstappen{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/verstappen.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-hadjar{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/hadjar.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-norris{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/norris.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-piastri{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/piastri.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-alonso{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/alonso.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-stroll{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/stroll.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-sainz{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/sainz.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-albon{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/albon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-hulkenberg{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/hulkenberg.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-bortoleto{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/bortoleto.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-lawson{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/lawson.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-lindblad{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/lindblad.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-bearman{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/bearman.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-ocon{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/ocon.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-gasly{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/gasly.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-colapinto{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/colapinto.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-perez{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/perez.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.piloto-bottas{
+    margin-top: 24px;
+    border: var(--cinza-escuro) 2px solid;
+     border-radius: 8%;
+  width: 160px;
+  height: 200px;
+  background: url(../assets/img/Img-paginas-secundarias/Pilotos/bottas.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.flip-box{
+    width: 260px;
+    height: 300px;
+  background-color: transparent;
+}
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.flip-box-back {
+
+  transform: rotateY(180deg);
+}
+.ul{
+    width: 120px;
+}
+.lista-mercedes{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #27F4D2;
+    gap: 8px;
+     width: 180px;
+     background-color: rgba(0, 0, 0, 0.452);
+}
+
+
+.lista-ferrari{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff200;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-red-bull{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #4570C0;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-mclarem{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FF8000;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-aston-martin{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #037A68;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-willians{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #3267D4;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-audi{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #F50537;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-racing-bulls{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #6C98FF ;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-haas{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #ffffff ;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-alpine{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FF87BC ;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+.lista-cadillac{
+    margin-top: 20px;
+    font-size: 16px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #FFFFFF ;
+    gap: 8px;
+    width: 180px;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+@media screen and (max-width: 1440px) and (min-width: 1000px)  {
+     .logo-Site {
+         position: relative;
+         transform: none;
+     }
+
+     .navbar-item {
+         img {
+             width: auto;
+             height: 54px;
+         }
+
+         p {
+             font-size: 20px;
+         }
+     }
+
+     .alinhamento {
+         gap: 32px;
+         margin-right: 32px;
+     }
+
+     .navbar-start {
+         gap: 12px;
+     }
+
+     .logo-f1 {
+         display: none;
+     }
+
+     .icones-footer {
+         height: 100%;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 10px;
+
+         img {
+             width: 120px;
+         }
+     }
+
+     .atalhos-footer {
+         font-size: 24px;
+         text-align: center;
+
+         h2 {
+             color: var(--cinza-escuro);
+             font-size: 28px;
+         }
+     }
+
+     .titulo-contatos {
+         color: var(--cinza-escuro);
+         font-size: 28px;
+         margin-bottom: 10px;
+     }
+
+     .icones-contatos {
+         display: flex;
+         align-items: center;
+         justify-content: center;
+         flex-direction: column;
+     }
+
+     .linha1,
+     .linha2 {
+         img {
+             width: 60px;
+         }
+     }
+
+     .creditos {
+         display: flex;
+         align-items: center;
+         flex-direction: column;
+         color: var(--cinza-escuro);
+         font-size: 20px;
+         text-align: center;
+         margin-bottom: 8px;
+         margin-top: 8px;
+     }
+     .titulo-pilotos{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    color: var(--vermelho-escuro);
+    font-style: italic;
+    font-size: 36px;
+    
+}
+.conteiner-separador{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    border-top: var(--cinza-escuro) 2px solid;
+    border-bottom: var(--cinza-escuro) 2px solid;
+    padding: 8px;
+    margin-bottom: 30px;
+     
+    gap: 100px;
+}
+.linha{
+    display: none;
+    border: var(--cinza-escuro) 1px solid;
+    height: 60px;
+}
+.subtitulo{
+    color:var(--branco);
+    font-size: 24px;
+}
+.cards-pilotos{
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+}
