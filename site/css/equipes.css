@@ -64,23 +64,7 @@ p{
 #navbarBasicExample {
     position: relative;
 }
-@media (min-width: 1000px) {
-    .cor-nav {
-        position: relative !important;
-    }
 
-    .cor-nav #navbarBasicExample {
-        position: static !important;
-    }
-
-    .cor-nav .navbar-start {
-        position: absolute !important;
-        top: 50% !important;
-        left: 50% !important;
-        transform: translate(-50%, -50%) !important;
-        gap: 36px !important;
-    }
-}
 
 .logo-Site {
     position: relative;
